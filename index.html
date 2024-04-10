@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad pagina web</title>
+</head>
+<body>
+    <form id="form">
+        <div class="mb-3">
+            <label for="int_edad_usuario" class="form-label">Edad</label>
+            <input type="number" class="form-control" id="int_edad_usuario" name="int_edad_usuario" placeholder="Introduzca su edad" title="Debe ingresar su edad" required="" minlength="1" maxlength="3" />
+        </div>
+    
+        <div class="mb-3">
+            <label for="email">Email:</label>
+            <input type="email" id="email" pattern=".+@gmail.com" required=""  placeholder="Introduza su email"/>
+        </div>
+    
+        <div class="mb-3">
+            <label for="txt_nombre_usuario" class="form-label">Usuario</label>
+            <input type="text" class="form-control" id="txt_nombre_usuario" name="txt_nombre_usuario" placeholder="Introduza su nombre" required="" minlength="4" maxlength="12" />
+        </div>
+    
+        <button type="submit" class="btn btn-primary w-100 text-uppercase fw-bold">Enviar</button>
+    </form>
+</body>
+<style>
+    input{ background-color: rgba(153, 148, 148, 0.623);}
+</style>
+</html>
